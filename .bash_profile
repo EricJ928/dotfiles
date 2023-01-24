@@ -1,6 +1,9 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
+#Disable warning message at the top of the bash terminal reading "The default interactive shell is now zsh."
+export BASH_SILENCE_DEPRECATION_WARNING=1;
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
