@@ -8,6 +8,10 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# python3 and pip3
+alias python="python3"
+alias pip="pip3"
+
 # Shortcuts
 alias ic="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias d="cd ~/Documents/Dropbox"
